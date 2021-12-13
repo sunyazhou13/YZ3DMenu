@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FBA7512276716A700BB21A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA7511276716A700BB21A9 /* AppDelegate.m */; };
+		3FBA7515276716A700BB21A9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA7514276716A700BB21A9 /* SceneDelegate.m */; };
+		3FBA7518276716A700BB21A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA7517276716A700BB21A9 /* ViewController.m */; };
+		3FBA751B276716A700BB21A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBA7519276716A700BB21A9 /* Main.storyboard */; };
+		3FBA751D276716AB00BB21A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBA751C276716AB00BB21A9 /* Assets.xcassets */; };
+		3FBA7520276716AB00BB21A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBA751E276716AB00BB21A9 /* LaunchScreen.storyboard */; };
+		3FBA7523276716AB00BB21A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA7522276716AB00BB21A9 /* main.m */; };
+		3FBA752C2767221700BB21A9 /* YZLongPressButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA752B2767221700BB21A9 /* YZLongPressButton.m */; };
+		3FBA752F276722CF00BB21A9 /* YZ3DMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA752E276722CF00BB21A9 /* YZ3DMenu.m */; };
+		3FBA7532276725A100BB21A9 /* YZ3DMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA7531276725A100BB21A9 /* YZ3DMenuItem.m */; };
+		3FBA753527672BC900BB21A9 /* YZ3DMenuDashboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA753427672BC900BB21A9 /* YZ3DMenuDashboard.m */; };
+		3FBA75392767387B00BB21A9 /* YZ3DMenuItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA75382767387B00BB21A9 /* YZ3DMenuItemButton.m */; };
+		3FBA753C27673A4300BB21A9 /* YZ3DMenuAnimateLineContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA753B27673A4300BB21A9 /* YZ3DMenuAnimateLineContainerView.m */; };
+		3FBA753F27673CBC00BB21A9 /* UIView+YZ3DAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA753E27673CBC00BB21A9 /* UIView+YZ3DAddition.m */; };
+		A72B658A91308FB05C1AAB88 /* Pods_yz3dmenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266D7DD3E68DCB089DAEF3AD /* Pods_yz3dmenu.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		266D7DD3E68DCB089DAEF3AD /* Pods_yz3dmenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yz3dmenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBA750D276716A700BB21A9 /* yz3dmenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yz3dmenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBA7510276716A700BB21A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FBA7511276716A700BB21A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FBA7513276716A700BB21A9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3FBA7514276716A700BB21A9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3FBA7516276716A700BB21A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3FBA7517276716A700BB21A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FBA751A276716A700BB21A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FBA751C276716AB00BB21A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FBA751F276716AB00BB21A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FBA7521276716AB00BB21A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FBA7522276716AB00BB21A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FBA752A2767221700BB21A9 /* YZLongPressButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZLongPressButton.h; sourceTree = "<group>"; };
+		3FBA752B2767221700BB21A9 /* YZLongPressButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZLongPressButton.m; sourceTree = "<group>"; };
+		3FBA752D276722CF00BB21A9 /* YZ3DMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZ3DMenu.h; sourceTree = "<group>"; };
+		3FBA752E276722CF00BB21A9 /* YZ3DMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZ3DMenu.m; sourceTree = "<group>"; };
+		3FBA7530276725A100BB21A9 /* YZ3DMenuItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZ3DMenuItem.h; sourceTree = "<group>"; };
+		3FBA7531276725A100BB21A9 /* YZ3DMenuItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZ3DMenuItem.m; sourceTree = "<group>"; };
+		3FBA753327672BC900BB21A9 /* YZ3DMenuDashboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZ3DMenuDashboard.h; sourceTree = "<group>"; };
+		3FBA753427672BC900BB21A9 /* YZ3DMenuDashboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZ3DMenuDashboard.m; sourceTree = "<group>"; };
+		3FBA75362767347900BB21A9 /* YZConstantHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZConstantHeader.h; sourceTree = "<group>"; };
+		3FBA75372767387B00BB21A9 /* YZ3DMenuItemButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZ3DMenuItemButton.h; sourceTree = "<group>"; };
+		3FBA75382767387B00BB21A9 /* YZ3DMenuItemButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZ3DMenuItemButton.m; sourceTree = "<group>"; };
+		3FBA753A27673A4300BB21A9 /* YZ3DMenuAnimateLineContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZ3DMenuAnimateLineContainerView.h; sourceTree = "<group>"; };
+		3FBA753B27673A4300BB21A9 /* YZ3DMenuAnimateLineContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZ3DMenuAnimateLineContainerView.m; sourceTree = "<group>"; };
+		3FBA753D27673CBC00BB21A9 /* UIView+YZ3DAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YZ3DAddition.h"; sourceTree = "<group>"; };
+		3FBA753E27673CBC00BB21A9 /* UIView+YZ3DAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YZ3DAddition.m"; sourceTree = "<group>"; };
+		3FBA7540276751B600BB21A9 /* YZ3DMenuKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZ3DMenuKit.h; sourceTree = "<group>"; };
+		692F43AABC0D61A1B0BCBC1C /* Pods-yz3dmenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yz3dmenu.debug.xcconfig"; path = "Target Support Files/Pods-yz3dmenu/Pods-yz3dmenu.debug.xcconfig"; sourceTree = "<group>"; };
+		A2D26C9F7C54F0973EA3879D /* Pods-yz3dmenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yz3dmenu.release.xcconfig"; path = "Target Support Files/Pods-yz3dmenu/Pods-yz3dmenu.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FBA750A276716A700BB21A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72B658A91308FB05C1AAB88 /* Pods_yz3dmenu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FBA7504276716A700BB21A9 = {
+			isa = PBXGroup;
+			children = (
+				3FBA750F276716A700BB21A9 /* yz3dmenu */,
+				3FBA750E276716A700BB21A9 /* Products */,
+				93BBD0FFD7C25645B137EF18 /* Pods */,
+				A55420130A0E2A28025F1CCB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FBA750E276716A700BB21A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FBA750D276716A700BB21A9 /* yz3dmenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FBA750F276716A700BB21A9 /* yz3dmenu */ = {
+			isa = PBXGroup;
+			children = (
+				3FBA7529276721E500BB21A9 /* YZ3DMenuKit */,
+				3FBA7510276716A700BB21A9 /* AppDelegate.h */,
+				3FBA7511276716A700BB21A9 /* AppDelegate.m */,
+				3FBA7513276716A700BB21A9 /* SceneDelegate.h */,
+				3FBA7514276716A700BB21A9 /* SceneDelegate.m */,
+				3FBA7516276716A700BB21A9 /* ViewController.h */,
+				3FBA7517276716A700BB21A9 /* ViewController.m */,
+				3FBA7519276716A700BB21A9 /* Main.storyboard */,
+				3FBA751C276716AB00BB21A9 /* Assets.xcassets */,
+				3FBA751E276716AB00BB21A9 /* LaunchScreen.storyboard */,
+				3FBA7521276716AB00BB21A9 /* Info.plist */,
+				3FBA7522276716AB00BB21A9 /* main.m */,
+			);
+			path = yz3dmenu;
+			sourceTree = "<group>";
+		};
+		3FBA7529276721E500BB21A9 /* YZ3DMenuKit */ = {
+			isa = PBXGroup;
+			children = (
+				3FBA752A2767221700BB21A9 /* YZLongPressButton.h */,
+				3FBA752B2767221700BB21A9 /* YZLongPressButton.m */,
+				3FBA752D276722CF00BB21A9 /* YZ3DMenu.h */,
+				3FBA752E276722CF00BB21A9 /* YZ3DMenu.m */,
+				3FBA753327672BC900BB21A9 /* YZ3DMenuDashboard.h */,
+				3FBA753427672BC900BB21A9 /* YZ3DMenuDashboard.m */,
+				3FBA7530276725A100BB21A9 /* YZ3DMenuItem.h */,
+				3FBA7531276725A100BB21A9 /* YZ3DMenuItem.m */,
+				3FBA75372767387B00BB21A9 /* YZ3DMenuItemButton.h */,
+				3FBA75382767387B00BB21A9 /* YZ3DMenuItemButton.m */,
+				3FBA753A27673A4300BB21A9 /* YZ3DMenuAnimateLineContainerView.h */,
+				3FBA753B27673A4300BB21A9 /* YZ3DMenuAnimateLineContainerView.m */,
+				3FBA753D27673CBC00BB21A9 /* UIView+YZ3DAddition.h */,
+				3FBA753E27673CBC00BB21A9 /* UIView+YZ3DAddition.m */,
+				3FBA75362767347900BB21A9 /* YZConstantHeader.h */,
+				3FBA7540276751B600BB21A9 /* YZ3DMenuKit.h */,
+			);
+			path = YZ3DMenuKit;
+			sourceTree = "<group>";
+		};
+		93BBD0FFD7C25645B137EF18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				692F43AABC0D61A1B0BCBC1C /* Pods-yz3dmenu.debug.xcconfig */,
+				A2D26C9F7C54F0973EA3879D /* Pods-yz3dmenu.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A55420130A0E2A28025F1CCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				266D7DD3E68DCB089DAEF3AD /* Pods_yz3dmenu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FBA750C276716A700BB21A9 /* yz3dmenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FBA7526276716AB00BB21A9 /* Build configuration list for PBXNativeTarget "yz3dmenu" */;
+			buildPhases = (
+				5E3B08D317057BEEF9EBC012 /* [CP] Check Pods Manifest.lock */,
+				3FBA7509276716A700BB21A9 /* Sources */,
+				3FBA750A276716A700BB21A9 /* Frameworks */,
+				3FBA750B276716A700BB21A9 /* Resources */,
+				D52316AE89F4F24E3D103668 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yz3dmenu;
+			productName = yz3dmenu;
+			productReference = 3FBA750D276716A700BB21A9 /* yz3dmenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FBA7505276716A700BB21A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					3FBA750C276716A700BB21A9 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 3FBA7508276716A700BB21A9 /* Build configuration list for PBXProject "yz3dmenu" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FBA7504276716A700BB21A9;
+			productRefGroup = 3FBA750E276716A700BB21A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FBA750C276716A700BB21A9 /* yz3dmenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FBA750B276716A700BB21A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBA7520276716AB00BB21A9 /* LaunchScreen.storyboard in Resources */,
+				3FBA751D276716AB00BB21A9 /* Assets.xcassets in Resources */,
+				3FBA751B276716A700BB21A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E3B08D317057BEEF9EBC012 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yz3dmenu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D52316AE89F4F24E3D103668 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yz3dmenu/Pods-yz3dmenu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yz3dmenu/Pods-yz3dmenu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-yz3dmenu/Pods-yz3dmenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FBA7509276716A700BB21A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBA752C2767221700BB21A9 /* YZLongPressButton.m in Sources */,
+				3FBA7518276716A700BB21A9 /* ViewController.m in Sources */,
+				3FBA7532276725A100BB21A9 /* YZ3DMenuItem.m in Sources */,
+				3FBA752F276722CF00BB21A9 /* YZ3DMenu.m in Sources */,
+				3FBA7512276716A700BB21A9 /* AppDelegate.m in Sources */,
+				3FBA753F27673CBC00BB21A9 /* UIView+YZ3DAddition.m in Sources */,
+				3FBA753527672BC900BB21A9 /* YZ3DMenuDashboard.m in Sources */,
+				3FBA75392767387B00BB21A9 /* YZ3DMenuItemButton.m in Sources */,
+				3FBA7523276716AB00BB21A9 /* main.m in Sources */,
+				3FBA7515276716A700BB21A9 /* SceneDelegate.m in Sources */,
+				3FBA753C27673A4300BB21A9 /* YZ3DMenuAnimateLineContainerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FBA7519276716A700BB21A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FBA751A276716A700BB21A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FBA751E276716AB00BB21A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FBA751F276716AB00BB21A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FBA7524276716AB00BB21A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FBA7525276716AB00BB21A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FBA7527276716AB00BB21A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 692F43AABC0D61A1B0BCBC1C /* Pods-yz3dmenu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BYSSQA48XN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = yz3dmenu/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunyazhou.yz3dmenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FBA7528276716AB00BB21A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2D26C9F7C54F0973EA3879D /* Pods-yz3dmenu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BYSSQA48XN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = yz3dmenu/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunyazhou.yz3dmenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FBA7508276716A700BB21A9 /* Build configuration list for PBXProject "yz3dmenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBA7524276716AB00BB21A9 /* Debug */,
+				3FBA7525276716AB00BB21A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FBA7526276716AB00BB21A9 /* Build configuration list for PBXNativeTarget "yz3dmenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBA7527276716AB00BB21A9 /* Debug */,
+				3FBA7528276716AB00BB21A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FBA7505276716A700BB21A9 /* Project object */;
+}
