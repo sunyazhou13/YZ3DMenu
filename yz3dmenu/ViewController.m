@@ -21,6 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     YZ3DMenuItem *nightItem = [YZ3DMenuItem itemWithTitle:@"切换暗色/亮色"
                                                 tintColor:KTabbarMenuNormalColor
                                                 imageName:@"menu_night_moon"
@@ -44,14 +45,14 @@
     }];
     YZ3DMenuItem *likeItem = [YZ3DMenuItem itemWithTitle:@"收藏"
                                                 tintColor:KTabbarMenuNormalColor
-                                                imageName:@"control_pad_night_moon"
+                                                imageName:@"menu_star"
                                               normalColor:KTabbarMenuNormalColor
                                            highLightColor:[UIColor whiteColor] selectionAction:^{
         NSLog(@"收藏");
     }];
     YZ3DMenuItem *searchItem = [YZ3DMenuItem itemWithTitle:@"热门搜索"
                                                 tintColor:KTabbarMenuNormalColor
-                                                imageName:@"control_pad_night_moon"
+                                                imageName:@"menu_search"
                                               normalColor:KTabbarMenuNormalColor
                                            highLightColor:[UIColor whiteColor] selectionAction:^{
         NSLog(@"热门搜索");
@@ -65,6 +66,11 @@
         NSLog(@"长按触发");
     };
     [self.view addSubview:menuButton];
+    [menuButton mas_remakeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.equalTo(self.view.mas_centerX);
+        make.size.mas_equalTo(CGSizeMake(64, 49));
+        make.bottom.mas_equalTo(self.view.safeAreaInsets.bottom).offset(0);
+    }];
 }
 
 

@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3FBA7512276716A700BB21A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA7511276716A700BB21A9 /* AppDelegate.m */; };
-		3FBA7515276716A700BB21A9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA7514276716A700BB21A9 /* SceneDelegate.m */; };
 		3FBA7518276716A700BB21A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA7517276716A700BB21A9 /* ViewController.m */; };
-		3FBA751B276716A700BB21A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBA7519276716A700BB21A9 /* Main.storyboard */; };
 		3FBA751D276716AB00BB21A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBA751C276716AB00BB21A9 /* Assets.xcassets */; };
 		3FBA7520276716AB00BB21A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBA751E276716AB00BB21A9 /* LaunchScreen.storyboard */; };
 		3FBA7523276716AB00BB21A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA7522276716AB00BB21A9 /* main.m */; };
@@ -29,11 +27,8 @@
 		3FBA750D276716A700BB21A9 /* yz3dmenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yz3dmenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBA7510276716A700BB21A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3FBA7511276716A700BB21A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3FBA7513276716A700BB21A9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		3FBA7514276716A700BB21A9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		3FBA7516276716A700BB21A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3FBA7517276716A700BB21A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3FBA751A276716A700BB21A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FBA751C276716AB00BB21A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FBA751F276716AB00BB21A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FBA7521276716AB00BB21A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,11 +89,8 @@
 				3FBA7529276721E500BB21A9 /* YZ3DMenuKit */,
 				3FBA7510276716A700BB21A9 /* AppDelegate.h */,
 				3FBA7511276716A700BB21A9 /* AppDelegate.m */,
-				3FBA7513276716A700BB21A9 /* SceneDelegate.h */,
-				3FBA7514276716A700BB21A9 /* SceneDelegate.m */,
 				3FBA7516276716A700BB21A9 /* ViewController.h */,
 				3FBA7517276716A700BB21A9 /* ViewController.m */,
-				3FBA7519276716A700BB21A9 /* Main.storyboard */,
 				3FBA751C276716AB00BB21A9 /* Assets.xcassets */,
 				3FBA751E276716AB00BB21A9 /* LaunchScreen.storyboard */,
 				3FBA7521276716AB00BB21A9 /* Info.plist */,
@@ -208,7 +200,6 @@
 			files = (
 				3FBA7520276716AB00BB21A9 /* LaunchScreen.storyboard in Resources */,
 				3FBA751D276716AB00BB21A9 /* Assets.xcassets in Resources */,
-				3FBA751B276716A700BB21A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +261,6 @@
 				3FBA753527672BC900BB21A9 /* YZ3DMenuDashboard.m in Sources */,
 				3FBA75392767387B00BB21A9 /* YZ3DMenuItemButton.m in Sources */,
 				3FBA7523276716AB00BB21A9 /* main.m in Sources */,
-				3FBA7515276716A700BB21A9 /* SceneDelegate.m in Sources */,
 				3FBA753C27673A4300BB21A9 /* YZ3DMenuAnimateLineContainerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,14 +268,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3FBA7519276716A700BB21A9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FBA751A276716A700BB21A9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3FBA751E276716AB00BB21A9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -422,7 +404,6 @@
 				INFOPLIST_FILE = yz3dmenu/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -451,7 +432,6 @@
 				INFOPLIST_FILE = yz3dmenu/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

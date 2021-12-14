@@ -8,13 +8,14 @@
 #import "YZLongPressButton.h"
 #import "YZ3DMenu.h"
 #import "UIView+YZ3DAddition.h"
+#import "YZConstantHeader.h"
 
 static const CGFloat KLongPressMinTime = 0.3;
 
 @interface YZLongPressButton ()
 
 @property (nonatomic,strong) UIImageView *iconImageView;
-@property (nonatomic,strong) YZ3DMenu *settingMenu;
+@property (nonatomic,strong) YZ3DMenu *mainMenu;
 
 @end
 
@@ -32,6 +33,7 @@ static const CGFloat KLongPressMinTime = 0.3;
     self.iconImageView.bounds = CGRectMake(0, 0, 40, 40);
     self.iconImageView.layer.cornerRadius = 20;
 //    self.iconImageView.isCustomThemeColor = YES;
+    self.iconImageView.backgroundColor = RGBCOLOR(217, 62, 69);
     self.iconImageView.image = [UIImage imageNamed:self.imageName];
     // tap gesture
     UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapAction:)];
@@ -55,21 +57,21 @@ static const CGFloat KLongPressMinTime = 0.3;
     switch (longPressGesture.state) {
         case UIGestureRecognizerStateBegan:
         {
-            self.settingMenu = [YZ3DMenu menuWithItemsArray:self.menuItems];
-            [self.settingMenu show];
+            self.mainMenu = [YZ3DMenu menuWithItemsArray:self.menuItems];
+            [self.mainMenu show];
         }
             break;
         case UIGestureRecognizerStateChanged:
         {
-            self.settingMenu.coronaMenu.hostGesture = longPressGesture;
+            self.mainMenu.coronaMenu.hostGesture = longPressGesture;
         }
             break;
         case UIGestureRecognizerStateFailed:
         case UIGestureRecognizerStateCancelled:
         case UIGestureRecognizerStateEnded:
         {
-            [self.settingMenu disMiss];
-            self.settingMenu.coronaMenu.hostGesture = longPressGesture;
+            [self.mainMenu disMiss];
+            self.mainMenu.coronaMenu.hostGesture = longPressGesture;
         }
             break;
         default:

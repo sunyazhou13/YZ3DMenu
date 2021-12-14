@@ -24,9 +24,10 @@
     YZ3DMenu *menu = [[YZ3DMenu alloc] init];
     menu.menuItems = menuItems;
 //    universalMenu.coronaMenu.isCustomThemeColor = YES;
+    menu.coronaMenu.backgroundColor = RGBCOLOR(217, 62, 69);
     menu.coronaMenu.iconImageName = @"tabbar_icon_post";
     // create window
-    UIWindow *menuBgWindow = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    UIWindow *menuBgWindow = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     menu.window = menuBgWindow;
     UIViewController *tempRootViewController = [[UIViewController alloc]init];
     tempRootViewController.view.userInteractionEnabled = NO;
@@ -47,7 +48,6 @@
 }
 
 - (void)show {
-//    self.backWindow.hidden = NO;
     self.window.hidden = NO;
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         self.coronaMenu.hidden = NO;
