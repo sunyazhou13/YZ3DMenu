@@ -26,4 +26,9 @@ date: 2021-12-14 08:08:08
 
 ![内部变量](./3DMenuDemo3.gif) 
 
+下面是框架的代码结构设计
 
+![](./3DMenuDesign.png)
+
+
+the end!
